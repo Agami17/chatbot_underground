@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+build/
+apps/api/node_modules/
+apps/web/node_modules/
+apps/**/dist/
+apps/**/build/
+
+# Env & secrets
+.env
+.env.*
+apps/**/.env
+apps/**/.env.*
+
+# OS/editor
+.DS_Store
+.vscode/
